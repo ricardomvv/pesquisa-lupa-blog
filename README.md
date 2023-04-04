@@ -29,4 +29,4 @@ Teste automatizado utilizando o Selenium WebDriver com a linguagem de programaç
 <b>Observação:</b> A versão do navegador precisa ser compatível com a versão do WebDriver para rodar os testes. <br>
 Versão ChromeDriver utilizada: <b>111.0.5563.64</b>
 
-<i>Versão 1.1.4</i>
+<i>Versão 1.1.5</i>
