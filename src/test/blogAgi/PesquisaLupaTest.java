@@ -34,7 +34,7 @@ public class PesquisaLupaTest {
     @Test
     public void pesquisaSemanaDoConsumidor() {
         driver.findElement(By.id("search-open")).click();
-        driver.findElement(By.cssSelector(".desktop-search input[placeholder='Pesquisar …']")).clear();
+        driver.findElement(By.cssSelector(".desktop-search input[placeholder='Pesquisar …']")).clear(); //Update 
         driver.findElement(By.cssSelector(".desktop-search input[placeholder='Pesquisar …']")).sendKeys("Semana do Consumidor");
         driver.findElement(By.cssSelector(".desktop-search input[value='Pesquisar']")).click();
         String searchResultTitle = driver.findElement(By.cssSelector("#primary header h1")).getText();
